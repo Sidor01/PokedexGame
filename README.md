@@ -1,5 +1,5 @@
 # PokedexGame
-This project is a game made in QT using C++, which is an simple auto battler
+This project is a simple auto battler game made in QT using C++.
 ## Table of contents
 * [Introduction](#introduction)
 * [Functionalities](#functionalities)
