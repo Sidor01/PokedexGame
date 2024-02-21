@@ -17,7 +17,7 @@ This project was a homework for my Object-Oriented C++ Programming course on the
 - User's team is saved in binary file, so the program remembers user choices and will load them when you start the program again
 ### 3.Chosing enemy
 - User can choose one of three available opponents, each of them has a different team
-- If user does not select any opponent, there is special "basic" opponent that will be chosen
+- If user does not select any opponent, there is a special "basic" opponent that will be chosen
 ### 4.Comparing statistics
 - User can compare one of three statistics of two Pokemons chosen by the user
 ### 5.Quick check of Pokemon's statistics
