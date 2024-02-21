@@ -1,0 +1,1797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TeamCreatorThreeSlots</class>
+ <widget class="QDialog" name="TeamCreatorThreeSlots">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1160</width>
+    <height>774</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Team Creator</string>
+  </property>
+  <widget class="QLabel" name="background">
+   <property name="geometry">
+    <rect>
+     <x>-650</x>
+     <y>-20</y>
+     <width>1811</width>
+     <height>801</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="resource.qrc">:/resources/resources/pokedexBackground.jpg</pixmap>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="team1">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>180</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.972, y2:0.909, stop:0 rgba(220, 0, 0, 253), stop:0.301676 rgba(147, 0, 0, 254), stop:0.653631 rgba(131, 0, 0, 254), stop:1 rgba(0, 0, 0, 255));
+
+font: 11pt &quot;Fixedsys&quot;;
+border-color: rgb(0, 0, 0);</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Charmander</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Charmeleon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Charizard</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Squirtle</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Wartortle</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Blastoise</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bulbasaur</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ivysaur</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Venusaur</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Gastly</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Haunter</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Gengar</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Abra</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Kadabra</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Alakazam</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mr.Mime</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Lapras</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Eevee</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Vaporeon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Jolteon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Flareon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ponyta</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Rapidash</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Magikarp</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Gyarados</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Snorlax</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Magnemite</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Magnezone</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QCheckBox" name="fireTrainerCheckBox">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>60</y>
+     <width>121</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;Fixedsys&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>Fire Trainer</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="waterTrainerCheckBox">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>90</y>
+     <width>131</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;Fixedsys&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>Water Trainer</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="grassTrainerCheckBox">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>120</y>
+     <width>131</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;Fixedsys&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>Grass Trainer</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="trainerChoiceLabel">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>30</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+
+font: 11pt &quot;Fixedsys&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>Change enemy</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="teamChoiceLabel">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>150</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;Fixedsys&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>Choose your team</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="statisticsCompareLabel">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>30</y>
+     <width>151</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;Fixedsys&quot;;
+color: rgb(0, 0, 0);
+</string>
+   </property>
+   <property name="text">
+    <string>Compare statistics</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pokemonCheckLabel">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>310</y>
+     <width>211</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;Fixedsys&quot;;
+color: rgb(0, 0, 0);
+</string>
+   </property>
+   <property name="text">
+    <string>Choose Pokemon to check its statistics</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="attackResultLabel">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>370</y>
+     <width>49</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;Fixedsys&quot;;
+color: rgb(0, 0, 0);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="healthResultLabel">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>400</y>
+     <width>49</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;Fixedsys&quot;;
+color: rgb(0, 0, 0);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="speedResultLabel">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>430</y>
+     <width>49</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;Fixedsys&quot;;
+color: rgb(0, 0, 0);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="team2">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>220</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.972, y2:0.909, stop:0 rgba(220, 0, 0, 253), stop:0.301676 rgba(147, 0, 0, 254), stop:0.653631 rgba(131, 0, 0, 254), stop:1 rgba(0, 0, 0, 255));
+
+font: 11pt &quot;Fixedsys&quot;;
+border-color: rgb(0, 0, 0);</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Charmander</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Charmeleon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Charizard</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Squirtle</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Wartortle</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Blastoise</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bulbasaur</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ivysaur</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Venusaur</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Gastly</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Haunter</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Gengar</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Abra</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Kadabra</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Alakazam</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mr.Mime</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Lapras</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Eevee</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Vaporeon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Jolteon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Flareon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ponyta</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Rapidash</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Magikarp</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Gyarados</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Snorlax</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Magnemite</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Magnezone</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="team3">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>260</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.972, y2:0.909, stop:0 rgba(220, 0, 0, 253), stop:0.301676 rgba(147, 0, 0, 254), stop:0.653631 rgba(131, 0, 0, 254), stop:1 rgba(0, 0, 0, 255));
+
+font: 11pt &quot;Fixedsys&quot;;
+border-color: rgb(0, 0, 0);</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Charmander</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Charmeleon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Charizard</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Squirtle</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Wartortle</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Blastoise</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bulbasaur</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ivysaur</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Venusaur</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Gastly</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Haunter</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Gengar</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Abra</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Kadabra</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Alakazam</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mr.Mime</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Lapras</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Eevee</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Vaporeon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Jolteon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Flareon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ponyta</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Rapidash</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Magikarp</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Gyarados</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Snorlax</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Magnemite</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Magnezone</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="firstPokemonComboBox">
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>50</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.972, y2:0.909, stop:0 rgba(220, 0, 0, 253), stop:0.301676 rgba(147, 0, 0, 254), stop:0.653631 rgba(131, 0, 0, 254), stop:1 rgba(0, 0, 0, 255));
+
+font: 11pt &quot;Fixedsys&quot;;
+border-color: rgb(0, 0, 0);</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Charmander</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Charmeleon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Charizard</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Squirtle</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Wartortle</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Blastoise</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bulbasaur</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ivysaur</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Venusaur</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Gastly</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Haunter</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Gengar</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Abra</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Kadabra</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Alakazam</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mr.Mime</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Lapras</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Eevee</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Vaporeon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Jolteon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Flareon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ponyta</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Rapidash</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Magikarp</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Gyarados</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Snorlax</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Magnemite</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Magnezone</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="secondPokemonComboBox">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>50</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.972, y2:0.909, stop:0 rgba(220, 0, 0, 253), stop:0.301676 rgba(147, 0, 0, 254), stop:0.653631 rgba(131, 0, 0, 254), stop:1 rgba(0, 0, 0, 255));
+
+font: 11pt &quot;Fixedsys&quot;;
+border-color: rgb(0, 0, 0);</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Charmander</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Charmeleon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Charizard</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Squirtle</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Wartortle</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Blastoise</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bulbasaur</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ivysaur</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Venusaur</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Gastly</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Haunter</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Gengar</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Abra</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Kadabra</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Alakazam</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mr.Mime</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Lapras</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Eevee</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Vaporeon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Jolteon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Flareon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ponyta</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Rapidash</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Magikarp</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Gyarados</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Snorlax</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Magnemite</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Magnezone</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="pokemonChoiceComboBox">
+   <property name="geometry">
+    <rect>
+     <x>890</x>
+     <y>330</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.972, y2:0.909, stop:0 rgba(220, 0, 0, 253), stop:0.301676 rgba(147, 0, 0, 254), stop:0.653631 rgba(131, 0, 0, 254), stop:1 rgba(0, 0, 0, 255));
+
+font: 11pt &quot;Fixedsys&quot;;
+border-color: rgb(0, 0, 0);</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Charmander</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Charmeleon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Charizard</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Squirtle</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Wartortle</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Blastoise</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bulbasaur</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ivysaur</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Venusaur</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Gastly</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Haunter</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Gengar</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Abra</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Kadabra</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Alakazam</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mr.Mime</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Lapras</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Eevee</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Vaporeon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Jolteon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Flareon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ponyta</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Rapidash</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Magikarp</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Gyarados</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Snorlax</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Magnemite</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Magnezone</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="statResultLabel">
+   <property name="geometry">
+    <rect>
+     <x>920</x>
+     <y>130</y>
+     <width>49</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;Fixedsys&quot;;
+color: rgb(0, 0, 0);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="AttackStatLabel">
+   <property name="geometry">
+    <rect>
+     <x>1060</x>
+     <y>370</y>
+     <width>49</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;Fixedsys&quot;;
+color: rgb(0, 0, 0);
+</string>
+   </property>
+   <property name="text">
+    <string>Attack</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="HealthStatLabel">
+   <property name="geometry">
+    <rect>
+     <x>1060</x>
+     <y>400</y>
+     <width>49</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;Fixedsys&quot;;
+color: rgb(0, 0, 0);
+</string>
+   </property>
+   <property name="text">
+    <string>Health</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="SpeedStatLabel">
+   <property name="geometry">
+    <rect>
+     <x>1060</x>
+     <y>430</y>
+     <width>49</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;Fixedsys&quot;;
+color: rgb(0, 0, 0);
+</string>
+   </property>
+   <property name="text">
+    <string>Speed</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="compareStatsButton">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>160</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.972, y2:0.909, stop:0 rgba(220, 0, 0, 253), stop:0.301676 rgba(147, 0, 0, 254), stop:0.653631 rgba(131, 0, 0, 254), stop:1 rgba(0, 0, 0, 255));
+
+font: 11pt &quot;Fixedsys&quot;;
+border-color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Check</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="checkStatsButton">
+   <property name="geometry">
+    <rect>
+     <x>920</x>
+     <y>460</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.972, y2:0.909, stop:0 rgba(220, 0, 0, 253), stop:0.301676 rgba(147, 0, 0, 254), stop:0.653631 rgba(131, 0, 0, 254), stop:1 rgba(0, 0, 0, 255));
+
+font: 11pt &quot;Fixedsys&quot;;
+border-color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Check</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="statChoiceComboBox">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>90</y>
+     <width>81</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.972, y2:0.909, stop:0 rgba(220, 0, 0, 253), stop:0.301676 rgba(147, 0, 0, 254), stop:0.653631 rgba(131, 0, 0, 254), stop:1 rgba(0, 0, 0, 255));
+
+font: 11pt &quot;Fixedsys&quot;;
+border-color: rgb(0, 0, 0);</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Attack</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Health</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Speed</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="teamAcceptButton">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>280</y>
+     <width>201</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.972, y2:0.909, stop:0 rgba(220, 0, 0, 253), stop:0.301676 rgba(147, 0, 0, 254), stop:0.653631 rgba(131, 0, 0, 254), stop:1 rgba(0, 0, 0, 255));
+
+font: 11pt &quot;Fixedsys&quot;;
+border-color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Accept your final team</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="team4">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>300</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.972, y2:0.909, stop:0 rgba(220, 0, 0, 253), stop:0.301676 rgba(147, 0, 0, 254), stop:0.653631 rgba(131, 0, 0, 254), stop:1 rgba(0, 0, 0, 255));
+
+font: 11pt &quot;Fixedsys&quot;;
+border-color: rgb(0, 0, 0);</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Charmander</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Charmeleon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Charizard</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Squirtle</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Wartortle</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Blastoise</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bulbasaur</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ivysaur</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Venusaur</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Gastly</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Haunter</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Gengar</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Abra</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Kadabra</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Alakazam</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mr.Mime</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Lapras</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Eevee</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Vaporeon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Jolteon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Flareon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ponyta</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Rapidash</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Magikarp</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Gyarados</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Snorlax</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Magnemite</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Magnezone</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="team5">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>340</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.972, y2:0.909, stop:0 rgba(220, 0, 0, 253), stop:0.301676 rgba(147, 0, 0, 254), stop:0.653631 rgba(131, 0, 0, 254), stop:1 rgba(0, 0, 0, 255));
+
+font: 11pt &quot;Fixedsys&quot;;
+border-color: rgb(0, 0, 0);</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Charmander</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Charmeleon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Charizard</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Squirtle</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Wartortle</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Blastoise</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bulbasaur</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ivysaur</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Venusaur</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Gastly</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Haunter</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Gengar</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Abra</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Kadabra</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Alakazam</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mr.Mime</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Lapras</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Eevee</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Vaporeon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Jolteon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Flareon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ponyta</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Rapidash</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Magikarp</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Gyarados</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Snorlax</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Magnemite</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Magnezone</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="team6">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>380</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.972, y2:0.909, stop:0 rgba(220, 0, 0, 253), stop:0.301676 rgba(147, 0, 0, 254), stop:0.653631 rgba(131, 0, 0, 254), stop:1 rgba(0, 0, 0, 255));
+
+font: 11pt &quot;Fixedsys&quot;;
+border-color: rgb(0, 0, 0);</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Charmander</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Charmeleon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Charizard</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Squirtle</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Wartortle</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Blastoise</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bulbasaur</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ivysaur</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Venusaur</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Gastly</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Haunter</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Gengar</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Abra</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Kadabra</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Alakazam</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mr.Mime</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Lapras</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Eevee</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Vaporeon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Jolteon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Flareon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ponyta</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Rapidash</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Magikarp</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Gyarados</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Snorlax</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Magnemite</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Magnezone</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="fightButton">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>40</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.972, y2:0.909, stop:0 rgba(220, 0, 0, 253), stop:0.301676 rgba(147, 0, 0, 254), stop:0.653631 rgba(131, 0, 0, 254), stop:1 rgba(0, 0, 0, 255));
+
+font: 11pt &quot;Fixedsys&quot;;
+border-color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>FIGHT</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

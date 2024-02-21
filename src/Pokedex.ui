@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Pokedex</class>
+ <widget class="QDialog" name="Pokedex">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1160</width>
+    <height>774</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Pokedex</string>
+  </property>
+  <widget class="QLabel" name="background">
+   <property name="geometry">
+    <rect>
+     <x>-520</x>
+     <y>-170</y>
+     <width>1791</width>
+     <height>991</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="resource.qrc">:/resources/resources/pokedexBackground.jpg</pixmap>
+   </property>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1231</width>
+     <height>771</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="3" column="1">
+     <layout class="QVBoxLayout" name="verticalLayout10">
+      <item>
+       <widget class="QLabel" name="pokemon10">
+        <property name="styleSheet">
+         <string notr="true">font: 11pt &quot;Fixedsys&quot;;
+color: rgb(0, 0, 0);
+</string>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="checkButton10">
+        <property name="styleSheet">
+         <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.972, y2:0.909, stop:0 rgba(220, 0, 0, 253), stop:0.301676 rgba(147, 0, 0, 254), stop:0.653631 rgba(131, 0, 0, 254), stop:1 rgba(0, 0, 0, 255));
+
+font: 11pt &quot;Fixedsys&quot;;
+border-color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Check</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="3" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout9">
+      <item>
+       <widget class="QLabel" name="pokemon9">
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 11pt &quot;Fixedsys&quot;;
+color: rgb(0, 0, 0);
+</string>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="checkButton9">
+        <property name="styleSheet">
+         <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.972, y2:0.909, stop:0 rgba(220, 0, 0, 253), stop:0.301676 rgba(147, 0, 0, 254), stop:0.653631 rgba(131, 0, 0, 254), stop:1 rgba(0, 0, 0, 255));
+
+font: 11pt &quot;Fixedsys&quot;;
+border-color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Check</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="1">
+     <layout class="QVBoxLayout" name="verticalLayout6">
+      <item>
+       <widget class="QLabel" name="pokemon6">
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 11pt &quot;Fixedsys&quot;;
+color: rgb(0, 0, 0);
+</string>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="checkButton6">
+        <property name="styleSheet">
+         <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.972, y2:0.909, stop:0 rgba(220, 0, 0, 253), stop:0.301676 rgba(147, 0, 0, 254), stop:0.653631 rgba(131, 0, 0, 254), stop:1 rgba(0, 0, 0, 255));
+
+font: 11pt &quot;Fixedsys&quot;;
+border-color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Check</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="3" column="3">
+     <layout class="QVBoxLayout" name="verticalLayout12">
+      <item>
+       <widget class="QLabel" name="pokemon12">
+        <property name="styleSheet">
+         <string notr="true">font: 11pt &quot;Fixedsys&quot;;
+color: rgb(0, 0, 0);
+</string>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="checkButton12">
+        <property name="styleSheet">
+         <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.972, y2:0.909, stop:0 rgba(220, 0, 0, 253), stop:0.301676 rgba(147, 0, 0, 254), stop:0.653631 rgba(131, 0, 0, 254), stop:1 rgba(0, 0, 0, 255));
+
+font: 11pt &quot;Fixedsys&quot;;
+border-color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Check</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="4" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout13">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="backButton">
+        <property name="styleSheet">
+         <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.972, y2:0.909, stop:0 rgba(220, 0, 0, 253), stop:0.301676 rgba(147, 0, 0, 254), stop:0.653631 rgba(131, 0, 0, 254), stop:1 rgba(0, 0, 0, 255));
+
+font: 11pt &quot;Fixedsys&quot;;
+border-color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Return</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="1">
+     <layout class="QVBoxLayout" name="verticalLayout2">
+      <item>
+       <widget class="QLabel" name="pokemon2">
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 11pt &quot;Fixedsys&quot;;
+color: rgb(0, 0, 0);
+</string>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="checkButton2">
+        <property name="styleSheet">
+         <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.972, y2:0.909, stop:0 rgba(220, 0, 0, 253), stop:0.301676 rgba(147, 0, 0, 254), stop:0.653631 rgba(131, 0, 0, 254), stop:1 rgba(0, 0, 0, 255));
+
+font: 11pt &quot;Fixedsys&quot;;
+border-color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Check</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="4" column="3">
+     <layout class="QVBoxLayout" name="verticalLayout16">
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="nextPageButton">
+        <property name="styleSheet">
+         <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.972, y2:0.909, stop:0 rgba(220, 0, 0, 253), stop:0.301676 rgba(147, 0, 0, 254), stop:0.653631 rgba(131, 0, 0, 254), stop:1 rgba(0, 0, 0, 255));
+
+font: 11pt &quot;Fixedsys&quot;;
+border-color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Next Page</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="2">
+     <layout class="QVBoxLayout" name="verticalLayout7">
+      <item>
+       <widget class="QLabel" name="pokemon7">
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 11pt &quot;Fixedsys&quot;;
+color: rgb(0, 0, 0);
+</string>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="checkButton7">
+        <property name="styleSheet">
+         <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.972, y2:0.909, stop:0 rgba(220, 0, 0, 253), stop:0.301676 rgba(147, 0, 0, 254), stop:0.653631 rgba(131, 0, 0, 254), stop:1 rgba(0, 0, 0, 255));
+
+font: 11pt &quot;Fixedsys&quot;;
+border-color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Check</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="4" column="2">
+     <layout class="QVBoxLayout" name="verticalLayout15">
+      <item>
+       <widget class="QLabel" name="pokemon14">
+        <property name="styleSheet">
+         <string notr="true">font: 11pt &quot;Fixedsys&quot;;
+color: rgb(0, 0, 0);
+</string>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="checkButton14">
+        <property name="styleSheet">
+         <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.972, y2:0.909, stop:0 rgba(220, 0, 0, 253), stop:0.301676 rgba(147, 0, 0, 254), stop:0.653631 rgba(131, 0, 0, 254), stop:1 rgba(0, 0, 0, 255));
+
+font: 11pt &quot;Fixedsys&quot;;
+border-color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Check</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout1">
+      <item>
+       <widget class="QLabel" name="pokemon1">
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 11pt &quot;Fixedsys&quot;;
+color: rgb(0, 0, 0);
+</string>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="checkButton1">
+        <property name="styleSheet">
+         <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.972, y2:0.909, stop:0 rgba(220, 0, 0, 253), stop:0.301676 rgba(147, 0, 0, 254), stop:0.653631 rgba(131, 0, 0, 254), stop:1 rgba(0, 0, 0, 255));
+
+font: 11pt &quot;Fixedsys&quot;;
+border-color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Check</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="2">
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <widget class="QLabel" name="pokemon3">
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 11pt &quot;Fixedsys&quot;;
+color: rgb(0, 0, 0);
+</string>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="checkButton3">
+        <property name="styleSheet">
+         <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.972, y2:0.909, stop:0 rgba(220, 0, 0, 253), stop:0.301676 rgba(147, 0, 0, 254), stop:0.653631 rgba(131, 0, 0, 254), stop:1 rgba(0, 0, 0, 255));
+
+font: 11pt &quot;Fixedsys&quot;;
+border-color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Check</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout5">
+      <item>
+       <widget class="QLabel" name="pokemon5">
+        <property name="styleSheet">
+         <string notr="true">font: 11pt &quot;Fixedsys&quot;;
+color: rgb(0, 0, 0);
+</string>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="checkButton5">
+        <property name="styleSheet">
+         <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.972, y2:0.909, stop:0 rgba(220, 0, 0, 253), stop:0.301676 rgba(147, 0, 0, 254), stop:0.653631 rgba(131, 0, 0, 254), stop:1 rgba(0, 0, 0, 255));
+
+font: 11pt &quot;Fixedsys&quot;;
+border-color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Check</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="3">
+     <layout class="QVBoxLayout" name="verticalLayout4">
+      <item>
+       <widget class="QLabel" name="pokemon4">
+        <property name="styleSheet">
+         <string notr="true">font: 11pt &quot;Fixedsys&quot;;
+color: rgb(0, 0, 0);
+</string>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="checkButton4">
+        <property name="styleSheet">
+         <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.972, y2:0.909, stop:0 rgba(220, 0, 0, 253), stop:0.301676 rgba(147, 0, 0, 254), stop:0.653631 rgba(131, 0, 0, 254), stop:1 rgba(0, 0, 0, 255));
+
+font: 11pt &quot;Fixedsys&quot;;
+border-color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Check</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="3" column="2">
+     <layout class="QVBoxLayout" name="verticalLayout11">
+      <item>
+       <widget class="QLabel" name="pokemon11">
+        <property name="styleSheet">
+         <string notr="true">font: 11pt &quot;Fixedsys&quot;;
+color: rgb(0, 0, 0);
+</string>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="checkButton11">
+        <property name="styleSheet">
+         <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.972, y2:0.909, stop:0 rgba(220, 0, 0, 253), stop:0.301676 rgba(147, 0, 0, 254), stop:0.653631 rgba(131, 0, 0, 254), stop:1 rgba(0, 0, 0, 255));
+
+font: 11pt &quot;Fixedsys&quot;;
+border-color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Check</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="4" column="1">
+     <layout class="QVBoxLayout" name="verticalLayout14">
+      <item>
+       <widget class="QLabel" name="pokemon13">
+        <property name="styleSheet">
+         <string notr="true">font: 11pt &quot;Fixedsys&quot;;
+color: rgb(0, 0, 0);
+</string>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="checkButton13">
+        <property name="styleSheet">
+         <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.972, y2:0.909, stop:0 rgba(220, 0, 0, 253), stop:0.301676 rgba(147, 0, 0, 254), stop:0.653631 rgba(131, 0, 0, 254), stop:1 rgba(0, 0, 0, 255));
+
+font: 11pt &quot;Fixedsys&quot;;
+border-color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Check</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="3">
+     <layout class="QVBoxLayout" name="verticalLayout_8">
+      <item>
+       <widget class="QLabel" name="pokemon8">
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 11pt &quot;Fixedsys&quot;;
+color: rgb(0, 0, 0);
+</string>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="checkButton8">
+        <property name="styleSheet">
+         <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.972, y2:0.909, stop:0 rgba(220, 0, 0, 253), stop:0.301676 rgba(147, 0, 0, 254), stop:0.653631 rgba(131, 0, 0, 254), stop:1 rgba(0, 0, 0, 255));
+
+font: 11pt &quot;Fixedsys&quot;;
+border-color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Check</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

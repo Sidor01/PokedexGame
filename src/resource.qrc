@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/resources">
+        <file>resources/background.jpg</file>
+        <file>resources/pokedexBackground.jpg</file>
+        <file>resources/pokedexLogo.png</file>
+        <file>resources/battleBackground.png</file>
+        <file>resources/logo.png</file>
+    </qresource>
+</RCC>

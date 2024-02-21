@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BattleWindow</class>
+ <widget class="QDialog" name="BattleWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1160</width>
+    <height>662</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Battle</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>1141</width>
+     <height>631</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="3" column="1">
+     <widget class="QTextBrowser" name="battleLog">
+      <property name="styleSheet">
+       <string notr="true">font: 11pt &quot;Fixedsys&quot;;
+color: rgb(0, 0, 0);
+</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="userPokemonName">
+      <property name="styleSheet">
+       <string notr="true">font: 11pt &quot;Fixedsys&quot;;
+color: rgb(0, 0, 0);
+</string>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QLabel" name="enemyPokemonName">
+      <property name="styleSheet">
+       <string notr="true">font: 11pt &quot;Fixedsys&quot;;
+color: rgb(0, 0, 0);
+</string>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QProgressBar" name="hpBar1">
+      <property name="styleSheet">
+       <string notr="true">font: 11pt &quot;Fixedsys&quot;;
+color: rgb(0, 0, 0);
+</string>
+      </property>
+      <property name="value">
+       <number>24</number>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLabel" name="userPokemonHp">
+      <property name="styleSheet">
+       <string notr="true">font: 11pt &quot;Fixedsys&quot;;
+color: rgb(0, 0, 0);
+</string>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="enemy">
+      <property name="styleSheet">
+       <string notr="true">font: 11pt &quot;Fixedsys&quot;;
+color: rgb(0, 0, 0);
+</string>
+      </property>
+      <property name="text">
+       <string>ENEMY</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="enemyPokemonHp">
+      <property name="styleSheet">
+       <string notr="true">font: 11pt &quot;Fixedsys&quot;;
+color: rgb(0, 0, 0);
+</string>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="2">
+     <widget class="QLabel" name="user">
+      <property name="styleSheet">
+       <string notr="true">font: 11pt &quot;Fixedsys&quot;;
+color: rgb(0, 0, 0);
+</string>
+      </property>
+      <property name="text">
+       <string>USER</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QProgressBar" name="hpBar2">
+      <property name="styleSheet">
+       <string notr="true">font: 11pt &quot;Fixedsys&quot;;
+color: rgb(0, 0, 0);
+</string>
+      </property>
+      <property name="value">
+       <number>24</number>
+      </property>
+     </widget>
+    </item>
+   </layout>
+   <zorder>userPokemonHp</zorder>
+   <zorder>userPokemonName</zorder>
+   <zorder>enemyPokemonName</zorder>
+   <zorder>hpBar1</zorder>
+   <zorder>enemyPokemonHp</zorder>
+   <zorder>battleLog</zorder>
+   <zorder>user</zorder>
+   <zorder>enemy</zorder>
+   <zorder>hpBar2</zorder>
+  </widget>
+  <widget class="QLabel" name="backgroundImage">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>60</y>
+     <width>1171</width>
+     <height>531</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <zorder>backgroundImage</zorder>
+  <zorder>gridLayoutWidget</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
