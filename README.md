@@ -26,6 +26,7 @@ This project was a homework for my Object-Oriented C++ Programming course on the
 - User does not have control over the course of the battle
 - Which team goes first is determined by the speed stat of the first Pokemon
 - Battle lasts until one of the players has no Pokemons left
+- Pokemons attack alternately
 - Damage formula is made on template which helps in quick changes in code, e.g. if user wants statistics with decimal points
 - User can watch the course of the battle by updated HP bars and text log, where every single action is recorded
 
